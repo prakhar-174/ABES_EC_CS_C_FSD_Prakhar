@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="basic.html" method="get">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="rollno.">Uni. Roll No.: </label>
+        <input type="number" name="rollno." id="rollno." placeholder="Enter your University Roll No." required>
+        <br><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label> &nbsp;
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="Skill">Primary Language: </label>
+        <select name="skill" id="skill">
+            <option value="select" selected>Select Language</option>
+            <option value="c">C</option>
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+        </select><br><br>
+        <button type="reset">Clear Form</button>
+        <button type="submit">Submit Form</button>
+    </form>
+</body>
+</html>
